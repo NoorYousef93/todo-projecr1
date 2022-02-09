@@ -2,9 +2,44 @@
 <html>
 <head>
 <style>
- table, th , td  {
-            border : 1px solid green ;
+    table {
+        border-collapse: collapse;
+        width: 100px;
+        align-content: center;
 
+    }
+  th , td  {
+            border : 1px solid green ;
+            align-content: center;
+            padding: 20px;
+
+            }
+            td
+            {font-style: italic;}
+            th {
+            color: green;
+        
+            }
+            ul {
+                list-style-type: none ;
+                margin: 0;
+            }
+            li {
+                float: left;
+            }
+            li a {
+                display: block;
+                background-color: silver;
+                padding: 8px;
+            }
+
+            table {
+                width: 150px;
+            }
+            #a {
+                color: red;
+                font-family: serif;
+                text-decoration-color: salmon;
             }
     </style>
     </head>
@@ -14,11 +49,15 @@
 
 <body>
     <h1>todo project</h1>
+<ul>
+    <li> <a href="about.html"> about </a></li>
 
-    <nav> 
-        <a href="about.html"> about</a> 
+    <li> <a href=" #contact"> contact </a></li>
 
-    </nav>
+
+
+</ul>
+    
     <p>my first try</p>
 
 <table>
@@ -28,20 +67,20 @@
     </tr>
     <tr>
     <td>task1</td>
-    <td>pass </td>
+    <td id="a"> pass  </td>
     </tr>
     <tr>
         <td>task2</td>
-        <td>pass </td>
+        <td  id="a">pass </td>
     </tr>
     <tr>
          <td>task3</td>  
-        <td>pass</td>
+        <td id="a">pass</td>
     </tr>
 
 </table>
     
-    <p> contact </p>
+
     <p>phone :********
         facebook *******
     </p>
