@@ -1,3 +1,5 @@
+'use strict' ;
+
 var yourname=prompt("your name is ");
 var gender=prompt("male or female ");
 var age=prompt ( "your age is " ) ;
